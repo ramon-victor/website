@@ -15,8 +15,8 @@
 
 body {
     animation: gradient 30s ease infinite;
-    background: linear-gradient(-45deg, #8879D4, #232F9E,
-    #352487) no-repeat;
+    background: linear-gradient(-45deg, #1b1b1b, #111111,
+    #08080c) no-repeat;
     background-size: 300% 300%;
     font-family: sans-serif;
     color: white;
@@ -65,7 +65,7 @@ header > h1::after {
     }
 }
 
-main {
+main, footer {
     margin: auto;
     margin-top: 80px;
     width: 50%;
@@ -73,17 +73,25 @@ main {
     text-align: center;
 }
 
-main > h1 {
+article > h1 {
     font-size: 23px;
     text-shadow: 3px 2px 7px #00000063;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
     font-weight: 500;
 }
 
-main > p {
+article > p {
     font-family: 'Roboto Condensed', sans-serif;
     max-width: 500px;
     margin: auto;
     font-size: 18px;
     font-weight: lighter;
+}
+
+aside {
+    margin-top: 30px;
+}
+footer {
+    margin-top: 14%;
+    font-size: 14px;
 }
