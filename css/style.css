@@ -15,12 +15,11 @@
 
 body {
     animation: gradient 30s ease infinite;
-    background: linear-gradient(-45deg, #1b1b1b, #111111,
-    #08080c) no-repeat;
+    background: linear-gradient(-45deg, #1b1b1b, #141414,
+    #101018) no-repeat;
     background-size: 300% 300%;
     font-family: sans-serif;
     color: white;
-    height: 20em;
     font-size: 200%;
 }
 
@@ -39,7 +38,7 @@ body {
 }
 
 header {
-    font-size: 12px;
+    font-size: 10px;
     padding: 10px;
     margin: 10px;
 }
@@ -67,7 +66,7 @@ header > h1::after {
 
 main, footer {
     margin: auto;
-    margin-top: 80px;
+    margin-top: 5%;
     width: 50%;
     padding: 10px;
     text-align: center;
@@ -89,9 +88,17 @@ article > p {
 }
 
 aside {
-    margin-top: 30px;
+    margin-top: 15%;
 }
+
+aside > picture {
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
 footer {
-    margin-top: 14%;
-    font-size: 14px;
+    font-size: 13px;
+    margin: auto;
+    text-align: center;  
 }
