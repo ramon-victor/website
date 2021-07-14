@@ -17,12 +17,13 @@
     --color-primary: #ffffff;
     --color-secondary: #0060df;
     --font-color: #000000;
- }
- .theme-dark {
+}
+
+.theme-dark {
     --color-primary: #1b1b1b;
     --color-secondary: #141414;
     --font-color: #ffffff;
- }
+}
 
 body {
     background-color: var(--color-primary);
@@ -66,6 +67,14 @@ main, footer {
     text-align: center;
 }
 
+#image-button {
+    background-image: url( '../images/avatar-100px.png' );
+    background-size: 100px 103px;
+    height: 103px;  
+    width: 100px;
+    border-radius: 50%;
+}
+
 article > h1 {
     font-size: 23px;
     margin-bottom: 20px;
@@ -78,14 +87,6 @@ article > p {
     margin: auto;
     font-size: 18px;
     font-weight: lighter;
-}
-
-#image-button {
-    background-image: url( '../images/avatar-100px.png' );
-    background-size: 100px 103px;
-    height: 103px;  
-    width: 104px;
-    border-radius: 50%;
 }
 
 aside {
