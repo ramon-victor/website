@@ -17,12 +17,20 @@
     --color-primary: #ffffff;
     --color-secondary: #0060df;
     --font-color: #000000;
+    --URLFacebook: url("../images/facebook.png");
+    --URLInstagram: url("../images/instagram.png");
+    --URLLinkedin: url("../images/linkedin.png");
+    --URLGithub: url("../images/github.png");
 }
 
 .theme-dark {
     --color-primary: #1b1b1b;
     --color-secondary: #141414;
     --font-color: #ffffff;
+    --URLFacebook: url("../images/facebook-white.png");
+    --URLInstagram: url("../images/instagram-white.png");
+    --URLLinkedin: url("../images/linkedin-white.png");
+    --URLGithub: url("../images/github-white.png");
 }
 
 body {
@@ -73,6 +81,8 @@ main, footer {
     height: 103px;  
     width: 100px;
     border-radius: 50%;
+    border-width: 3px;
+    border-color: #222222;
 }
 
 article > h1 {
@@ -98,6 +108,21 @@ aside > picture {
     margin-left: 8px;
     margin-right: 8px;
 }
+
+#facebookLogo {
+    content: var(--URLFacebook);
+}
+
+#instagramLogo {
+    content: var(--URLInstagram);
+}
+
+#linkedinLogo {
+    content: var(--URLLinkedin);
+}
+
+#githubLogo {
+    content: var(--URLGithub);
 
 footer {
     font-size: 1.6vh;

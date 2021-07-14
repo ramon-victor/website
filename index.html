@@ -17,8 +17,7 @@
     <main>
         
         <article>
-            <button id="image-button" onclick="toggleTheme()"></button>
-            <script src="js/themeSwitcher.js"></script>
+            <button id="image-button" onclick="toggleTheme()" alt="Avatar"></button>
             <h1>Ramon Victor Cardoso</h1>
             <p>
                 Sou um entusiasta estudante de tecnologia e estou sempre em busca de novos desafios. Criei esse site enquanto estudava <strong>HTML</strong>, <strong>CSS</strong> e <strong>JS</strong>. Pretendo atualizá-lo constantemente e logo mais adicionarei alguns projetos por aqui.
@@ -28,27 +27,28 @@
         <aside>
             <picture>
                 <a href="https://www.facebook.com/ramon.victorcardoso">
-                    <img src="images/facebook-white.png" alt="Icone Facebook">
+                    <img id="facebookLogo" alt="Icone Facebook">
                 </a>
             </picture>
 
             <picture>
                 <a href="https://www.instagram.com/_ramon_victor_/">
-                    <img src="images/instagram-white.png" alt="Icone Instagram">
+                    <img id="instagramLogo" alt="Icone Instagram">
                 </a>
             </picture>
 
             <picture>
                 <a href="https://www.instagram.com/_ramon_victor_/">
-                    <img src="images/linkedin-white.png" alt="Icone Linkedin">
+                    <img id="linkedinLogo" alt="Icone Linkedin">
                 </a>
             </picture>
 
             <picture>
                 <a href="https://github.com/ramonvc">
-                    <img src="images/github-white.png" alt="Icone Github">
+                    <img id="githubLogo" alt="Icone Github">
                 </a>
             </picture>
+            <script src="js/themeSwitcher.js"></script>
         </aside>
     </main>
 

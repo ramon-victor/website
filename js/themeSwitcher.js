@@ -11,6 +11,12 @@ function toggleTheme() {
     } else {
         setTheme('theme-dark');
     }
+
+    if (document.getElementById("img1").src == "images/facebook-white.png") {
+        document.getElementById("img1").src = "images/facebook.png";
+    } else {
+        document.getElementById("img1").src = "images/facebook.png";
+    }
 }
 
 // Immediately invoked function to set the theme on initial load
