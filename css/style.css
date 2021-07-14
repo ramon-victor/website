@@ -123,6 +123,7 @@ aside > picture {
 
 #githubLogo {
     content: var(--URLGithub);
+}
 
 footer {
     font-size: 1.6vh;
