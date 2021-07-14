@@ -12,13 +12,19 @@
     <header>
         <h1>Hello, World!</h1>
         <script src="js/typing.js"></script>
+
+        <label id="switch" class="switch">
+            <input type="checkbox" onchange="toggleTheme()" id="slider">
+            <span class="slider round"></span>
+        </label>
+        <script src="js/themeSwitcher.js"></script>
     </header>
 
     <main>
         
         <article>
             <picture>
-                <source media="(max-width: 750px)" srcset="images/avatar-140px.png">
+                <source media="(max-width: 750px)" srcset="images/avatar-100px.png">
                 <img src="images/avatar.png" alt="Avatar">
             </picture>
             <h1>Ramon Victor Cardoso</h1>
@@ -29,19 +35,27 @@
 
         <aside>
             <picture>
-                <img src="images/facebook-white.png" alt="Icone Facebook">
+                <a href="https://www.facebook.com/ramon.victorcardoso">
+                    <img src="images/facebook-white.png" alt="Icone Facebook">
+                </a>
             </picture>
 
             <picture>
-                <img src="images/instagram-white.png" alt="Icone Instagram">
+                <a href="https://www.instagram.com/_ramon_victor_/">
+                    <img src="images/instagram-white.png" alt="Icone Instagram">
+                </a>
             </picture>
 
             <picture>
-                <img src="images/linkedin-white.png" alt="Icone Linkedin">
+                <a href="https://www.instagram.com/_ramon_victor_/">
+                    <img src="images/linkedin-white.png" alt="Icone Linkedin">
+                </a>
             </picture>
 
             <picture>
-                <img src="images/github-white.png" alt="Icone Github">
+                <a href="https://github.com/ramonvc">
+                    <img src="images/github-white.png" alt="Icone Github">
+                </a>
             </picture>
         </aside>
     </main>
