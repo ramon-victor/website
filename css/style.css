@@ -83,6 +83,11 @@ main, footer {
     border-radius: 50%;
     border-width: 3px;
     border-color: #222222;
+
+}
+
+#image-button:hover {
+
 }
 
 article > h1 {
@@ -111,18 +116,38 @@ aside > picture {
 
 #facebookLogo {
     content: var(--URLFacebook);
+    opacity: 0.8;
+}
+
+#facebookLogo:hover {
+    opacity: 1;
 }
 
 #instagramLogo {
     content: var(--URLInstagram);
+    opacity: 0.8;
+}
+
+#instagramLogo:hover {
+    opacity: 1;
 }
 
 #linkedinLogo {
     content: var(--URLLinkedin);
+    opacity: 0.8;
+}
+
+#linkedinLogo:hover {
+    opacity: 1;
 }
 
 #githubLogo {
     content: var(--URLGithub);
+    opacity: 0.8;
+}
+
+#githubLogo:hover {
+    opacity: 1;
 }
 
 footer {
