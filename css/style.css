@@ -84,21 +84,24 @@ main, footer {
     background-size: 100px 103px;
     height: 103px;  
     width: 100px;
-    border-radius: 50%;
+    border-radius: 35%;
     border-color: #222222;
-    
+    margin-bottom: 25px;
+    opacity: 0.9;
+    box-shadow: 0px 0px 0px black;
 }
 
 #image-button:hover {
     cursor: pointer; 
     background-image: var(--URLAvatarInverse);
-    transition: .5s ease-out;
+    transition: .3s ease-out;
+    opacity: 1;
 }
 
 article > h1 {
-    font-size: 23px;
+    font-size: 24px;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 article > p {
