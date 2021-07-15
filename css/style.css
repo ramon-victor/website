@@ -81,11 +81,11 @@ main, footer {
 
 #image-button {
     background-image: var(--URLAvatar);
-    background-size: 100px 103px;
-    height: 103px;  
-    width: 100px;
+    background-size: 93px 93px;
+    height: 93px;  
+    width: 95px;
     border-radius: 35%;
-    border-color: #222222;
+    border: 1.5px solid #222222;
     margin-bottom: 25px;
     opacity: 0.9;
     box-shadow: 0px 0px 0px black;
@@ -100,7 +100,7 @@ main, footer {
 
 article > h1 {
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 700;
 }
 
