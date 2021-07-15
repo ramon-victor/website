@@ -39,7 +39,6 @@
 
 body {
     background-color: var(--color-primary);
-    font-family: sans-serif;
     color: var(--font-color);
     font-size: 200%;
 }
@@ -85,17 +84,17 @@ main, footer {
     height: 93px;  
     width: 95px;
     border-radius: 35%;
-    border: 1.5px solid #222222;
+    border: 1.8px solid #222222;
     margin-bottom: 25px;
     opacity: 0.9;
-    box-shadow: 0px 0px 0px black;
 }
 
 #image-button:hover {
     cursor: pointer; 
     background-image: var(--URLAvatarInverse);
-    transition: .3s ease-out;
+    transition: .25s ease-out;
     opacity: 1;
+    transform: scale(1.025);
 }
 
 article > h1 {
@@ -129,6 +128,8 @@ aside > picture {
 
 #facebookLogo:hover {
     opacity: 1;
+    transition: .25s ease-out;
+    transform: scale(1.04);
 }
 
 #instagramLogo {
@@ -138,6 +139,8 @@ aside > picture {
 
 #instagramLogo:hover {
     opacity: 1;
+    transition: .25s ease-out;
+    transform: scale(1.04);
 }
 
 #linkedinLogo {
@@ -147,6 +150,8 @@ aside > picture {
 
 #linkedinLogo:hover {
     opacity: 1;
+    transition: .25s ease-out;
+    transform: scale(1.04);
 }
 
 #githubLogo {
@@ -156,6 +161,8 @@ aside > picture {
 
 #githubLogo:hover {
     opacity: 1;
+    transition: .25s ease-out;
+    transform: scale(1.04);
 }
 
 footer {
