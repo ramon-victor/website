@@ -126,21 +126,9 @@ aside > picture {
     opacity: 0.8;
 }
 
-#facebookLogo:hover {
-    opacity: 1;
-    transition: .25s ease-out;
-    transform: scale(1.04);
-}
-
 #instagramLogo {
     content: var(--URLInstagram);
     opacity: 0.8;
-}
-
-#instagramLogo:hover {
-    opacity: 1;
-    transition: .25s ease-out;
-    transform: scale(1.04);
 }
 
 #linkedinLogo {
@@ -148,17 +136,14 @@ aside > picture {
     opacity: 0.8;
 }
 
-#linkedinLogo:hover {
-    opacity: 1;
-    transition: .25s ease-out;
-    transform: scale(1.04);
-}
-
 #githubLogo {
     content: var(--URLGithub);
     opacity: 0.8;
 }
 
+#facebookLogo:hover,
+#instagramLogo:hover, 
+#linkedinLogo:hover,
 #githubLogo:hover {
     opacity: 1;
     transition: .25s ease-out;

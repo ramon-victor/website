@@ -1,4 +1,4 @@
-
+// Function to effect Typewriter
 function typeWrite(element) {
     const textArray = element.innerHTML.split('');
     element.innerHTML = '';
@@ -9,5 +9,6 @@ function typeWrite(element) {
     })
 }
 
+// Effect applied to header h1
 const title = document.querySelector('h1');
 typeWrite(title);
