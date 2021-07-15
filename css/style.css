@@ -21,6 +21,8 @@
     --URLInstagram: url("../images/instagram.png");
     --URLLinkedin: url("../images/linkedin.png");
     --URLGithub: url("../images/github.png");
+    --URLAvatar: url("../images/avatar-white.png");
+    --URLAvatarInverse: url("../images/avatar-gray.png");
 }
 
 .theme-dark {
@@ -31,6 +33,8 @@
     --URLInstagram: url("../images/instagram-white.png");
     --URLLinkedin: url("../images/linkedin-white.png");
     --URLGithub: url("../images/github-white.png");
+    --URLAvatar: url("../images/avatar-gray.png");
+    --URLAvatarInverse: url("../images/avatar-white.png");
 }
 
 body {
@@ -76,18 +80,19 @@ main, footer {
 }
 
 #image-button {
-    background-image: url( '../images/avatar-100px.png' );
+    background-image: var(--URLAvatar);
     background-size: 100px 103px;
     height: 103px;  
     width: 100px;
     border-radius: 50%;
-    border-width: 3px;
     border-color: #222222;
-
+    
 }
 
 #image-button:hover {
-
+    cursor: pointer; 
+    background-image: var(--URLAvatarInverse);
+    transition: .5s ease-out;
 }
 
 article > h1 {
