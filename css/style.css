@@ -13,6 +13,10 @@
     padding: 0;
 }
 
+/*
+Dark and light theme and their respective contents
+--------------------------------------------------
+*/
 .theme-light {
     --color-primary: #ffffff;
     --color-secondary: #0060df;
