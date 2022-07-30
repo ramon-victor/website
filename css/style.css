@@ -20,7 +20,7 @@ Dark and light theme and their respective contents
 .theme-light {
     --color-primary: #ffffff;
     --color-secondary: #0060df;
-    --font-color: #000000;
+    --font-color: #323232;
     --URLFacebook: url("../images/facebook.png");
     --URLInstagram: url("../images/instagram.png");
     --URLLinkedin: url("../images/linkedin.png");
@@ -115,7 +115,7 @@ article>p {
     max-width: 32rem;
     margin: auto;
     font-size: 1rem;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 aside {
